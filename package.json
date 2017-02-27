@@ -1,0 +1,23 @@
+{
+  "name": "tempo",
+  "version": "1.0.0",
+  "description": "Alarm app that runs custom linux commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmz527/tempo.git"
+  },
+  "author": "james rutledge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmz527/tempo/issues"
+  },
+  "homepage": "https://github.com/jmz527/tempo#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
