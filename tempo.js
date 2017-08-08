@@ -7,7 +7,7 @@ var ExampleApplication = React.createClass({
 
     var elapsed = Math.round(this.props.elapsed  / 100);
     var seconds = elapsed / 10 + (elapsed % 10 ? '' : '.0' );
-    var message = '. React has been successfully running for ' + seconds + ' seconds.';
+    var message = '. Tempo has been successfully running for ' + seconds + ' seconds.';
 
     return React.DOM.p(null, time, message);
   }
